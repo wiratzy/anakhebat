@@ -6,10 +6,10 @@
         
         
         
-    <h1 style="margin-top:50px">BimBel Anak Hebat</h1>
+    <h1 style="margin-top:200px">BimBel Anak Hebat</h1>
     
 <img src=" <?php echo e(asset('/img/logo.png')); ?>" alt="" srcset="">
-<p>Ahe adalah bimbingan belajar dengan metode pembelajaran yang mudah dimengerti untuk anak usia dini</p>
+<p style="margin-top:50px">Ahe adalah bimbingan belajar dengan metode pembelajaran yang mudah dimengerti untuk anak usia dini</p>
 	<br>
 	<a href="/admin/login" title="" class="btn">Login</a>
 <span class="color color--blue" data-value="1"></span>
