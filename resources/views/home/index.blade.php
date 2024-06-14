@@ -1,6 +1,10 @@
-@extends('home.template_home')
+@extends ('layout.main')
+@extends ('home.css_home')
+@extends ('home.css_panduan')
+@section('title','home')
 
-@section('header')
+
+@section('content')
     <!-- about -->
 <div class="about">
    <a class="bg_links social portfolio" href="https://www.rafaelalucas.com" target="_blank">
@@ -36,6 +40,58 @@
       </figure>
    </div>
 </header><br><br><br><br><br><br>
+
+<div class="bodypanduan">
+  <div class="container">
+    <div class="card">
+      <div class="imgBx">
+        <img src="{{ asset('/img/kbm.jpg') }}" alt="Galeri Kegiatan Belajar Mengajar">
+      </div>
+      <div class="content">
+        <div class="contentBx">
+          <h3>Galeri Kegiatan<br><span>Belajar Mengajar</span></h3>
+        </div>
+        <ul class="sci">
+          <li style="--i:1"><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li style="--i:2"><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li style="--i:3"><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="imgBx">
+        <img src="{{ asset('/img/mitra.jpg') }}" alt="Galeri Kegiatan Mitra AHE">
+      </div>
+      <div class="content">
+        <div class="contentBx">
+          <h3>Galeri Kegiatan<br><span>Mitra AHE</span></h3>
+        </div>
+        <ul class="sci">
+          <li style="--i:1"><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li style="--i:2"><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li style="--i:3"><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="imgBx">
+        <img src="{{ asset('/img/unit.jpg') }}" alt="Galeri Kegiatan Unit Ahe">
+      </div>
+      <div class="content">
+        <div class="contentBx">
+          <h3>Galeri Kegiatan<br><span>Unit Ahe</span></h3>
+        </div>
+        <ul class="sci">
+          <li style="--i:1"><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li style="--i:2"><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li style="--i:3"><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 @endsection
 
 @section('script')

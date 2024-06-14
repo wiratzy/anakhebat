@@ -1,5 +1,5 @@
 <style>
-    .about {
+  .about {
   position: fixed;
   z-index: 10;
   bottom: 10px;
@@ -139,92 +139,9 @@
   background-color: #0077b5;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  border: 0;
-  outline: 0;
-  -webkit-tap-highlight-color: transparent;
-  text-decoration: none;
-  color: inherit;
-  box-sizing: border-box;
-}
 
-* :focus {
-  outline: 0;
-}
 
-body {
-  font-family: "Raleway", sans-serif;
-}
 
-.mainNav {
-  width: 100%;
-  height: 80px;
-  position: absolute;
-  z-index: 1;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: #9197ae;
-  text-transform: uppercase;
-  padding: 0 40px;
-}
-
-@media screen and (max-width: 799px) {
-  .mainNav {
-    padding: 0 20px;
-  }
-}
-
-.mainNav__logo {
-  font-weight: 800;
-  letter-spacing: 1px;
-  font-size: 18px;
-}
-
-.mainNav__links {
-  display: flex;
-}
-
-@media screen and (max-width: 799px) {
-  .mainNav__links {
-    display: none;
-  }
-}
-
-.mainNav__link {
-  letter-spacing: 1px;
-  font-size: 14px;
-  margin-left: 20px;
-  font-weight: 600;
-  box-shadow: inset 0px -10px 0px rgba(255, 255, 255, 0.5);
-  transition: all 0.4s ease, transform 0.2s ease;
-  padding: 2px 4px;
-  transform: translateY(0px);
-}
-
-.mainNav__link:hover {
-  transform: translateY(-5px);
-  box-shadow: inset 0px -20px 0px white;
-}
-
-.mainNav__icon {
-  background-image: url(https://rafaelalucas91.github.io/assets/icons/black/icon-141.svg);
-  width: 32px;
-  height: 32px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: none;
-}
-
-@media screen and (max-width: 799px) {
-  .mainNav__icon {
-    display: block;
-  }
-}
 
 .mainHeading {
   width: 100%;

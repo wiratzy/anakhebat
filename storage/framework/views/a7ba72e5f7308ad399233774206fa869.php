@@ -1,4 +1,4 @@
-@extends('footer.css_footer')
+
 <div class="bodyfooter">
 <footer class="footer">
     <div class="waves">
@@ -34,3 +34,4 @@
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </div>
+<?php echo $__env->make('layout.css_footer', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\anakhebat\resources\views/layout/template_footer.blade.php ENDPATH**/ ?>

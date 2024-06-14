@@ -9,10 +9,11 @@
     
 </head>
 <body>
-    <?php echo $__env->make('nav.template_nav', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
-    <?php echo $__env->yieldContent('header'); ?>
+    <?php echo $__env->make('layout.template_nav', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+    <?php echo $__env->yieldContent('content'); ?>
     <?php echo $__env->yieldContent('script'); ?>
     
+    <?php echo $__env->make('layout.template_footer', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
     
     
     
@@ -21,6 +22,5 @@
 </body>
 </html>
 <?php echo $__env->make('home.panduan', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
-<?php echo $__env->make('footer.template_footer', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 <?php echo $__env->make('footer.css_footer', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 <?php echo $__env->make('home.css_home', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\anakhebat\resources\views/home/template_home.blade.php ENDPATH**/ ?>

@@ -1,7 +1,7 @@
 <nav class="mainNav">
    <div class="mainNav__logo">Logo</div>
    <div class="mainNav__links">
-      <a href="" class="mainNav__link">About</a>
+      <a href="\unit" class="mainNav__link">About</a>
       <a href="" class="mainNav__link">Projects</a>
       <a href="" class="mainNav__link">Team</a>
       <a href="" class="mainNav__link">Contacts</a>
