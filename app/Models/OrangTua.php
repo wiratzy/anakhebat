@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class OrangTua extends Model
 {
     use HasFactory;
+   
 
     protected $fillable = ['nama', 'nomor_hp', 'provinsi', 'kabupaten', 'kecamatan', 'kelurahan'];
 }

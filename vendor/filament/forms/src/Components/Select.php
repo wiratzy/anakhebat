@@ -717,7 +717,7 @@ class Select extends Field implements Contracts\HasNestedRecursiveValidationRule
         return parent::getLabel();
     }
 
-    public function getRelationship(): BelongsTo | BelongsToMany | \Znck\Eloquent\Relations\BelongsToThrough | null
+    public function getRelationship(): BelongsTo | BelongsToMany | BelongsToThrough | null
     {
         $name = $this->getRelationshipName();
 

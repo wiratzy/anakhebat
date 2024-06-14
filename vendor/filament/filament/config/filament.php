@@ -1,4 +1,4 @@
-<?php
+    <?php
 
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\DispatchServingFilamentEvent;

@@ -164,7 +164,7 @@ class SelectFilter extends BaseFilter
 
     protected function getFormField(): Select
     {
-        return $this->getFormSelectComponent();
+        return $this->getFormField();
     }
 
     /**

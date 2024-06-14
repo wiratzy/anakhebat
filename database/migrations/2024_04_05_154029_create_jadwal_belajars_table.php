@@ -16,7 +16,6 @@ return new class extends Migration
             $table->enum('hari', ['senin', 'selasa', 'rabu', 'kamis', 'jumat', 'sabtu']);
             $table->char('jam');
             $table->char('durasi');
-            $table->string('pengajar')->unique();
             $table->timestamps();
         });
     }

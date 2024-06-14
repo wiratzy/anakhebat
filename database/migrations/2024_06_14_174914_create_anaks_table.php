@@ -15,8 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('nama');
             $table->enum('jenis_kelamin', ['laki-laki', 'perempuan']);
-            $table->string('metode_pembelajaran');
-            $table->string('preferensi_jadwal_belajar');
+            $table->enum('preferensi_belajar', ['menulis', 'membaca', 'menggambar']);
             $table->timestamps();
         });
     }
