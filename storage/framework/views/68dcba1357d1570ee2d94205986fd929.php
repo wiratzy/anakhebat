@@ -13,7 +13,7 @@
   background: #fff;
   border-radius: 10px;
   padding: 1rem 0;
-  box-shadow: 0 0 40px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.25);
   height: calc(100vh - 4rem);
   z-index: 9999; /* Pastikan nilai z-index tinggi */
 }
@@ -24,7 +24,7 @@
   align-items: center;
   justify-content: center;
   height: 5.5rem;
-  width: 5.5rem;
+  width: 4rem;
   color: #6a778e;
   transition: 250ms ease all;
 }
@@ -36,8 +36,8 @@
   margin-left: 1rem;
   opacity: 0;
   pointer-events: none;
-  color: #406ff3;
-  background: #fff;
+  color: #fff;
+  background: #667eac;
   padding: 0.75rem;
   transition: 250ms ease all;
   border-radius: 17.5px;

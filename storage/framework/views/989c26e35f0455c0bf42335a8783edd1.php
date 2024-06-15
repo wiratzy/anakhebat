@@ -29,19 +29,19 @@
          <p class="mainHeading__description">
          Ahe adalah bimbingan belajar dengan metode pembelajaran yang mudah dimengerti untuk anak usia dini
          </p>
-         <button class="cta">Daftar Sekarang</button>
+         <a href="/admin/login"><button class="cta">Daftar Sekarang</button></a>
       </article>
 
       <figure class="mainHeading__image">
          <img
-            src="https://images.unsplash.com/photo-1520856707909-75c4048cc858?ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80"
+            src="<?php echo e(asset('/img/visi.png')); ?>"
             alt=""
          />
       </figure>
    </div>
 </header><br><br><br><br><br><br>
 
-<div class="bodypanduan">
+<div class="bodypanduan" id="galeri">
   <div class="container">
     <div class="card">
       <div class="imgBx">

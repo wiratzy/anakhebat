@@ -19,3 +19,9 @@ Route::get('/', function () {
 Route::get('/unit', function () {
     return view('unit.index');
 });
+Route::get('/keunggulan', function () {
+    return view('keunggulan.index');
+});
+Route::get('/karir', function () {
+    return view('karir.index');
+});

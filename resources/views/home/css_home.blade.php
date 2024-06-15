@@ -28,7 +28,6 @@
   width: 40px;
   height: 40px;
   z-index: 9;
-  background-image: url(https://rafaelavlucas.github.io/assets/codepen/logo_white.svg);
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: 10px 7px;
@@ -334,9 +333,9 @@
 }
 
 .cta:hover {
-  border: 1px solid rgba(99, 116, 152, 0.1);
-  box-shadow: inset 0px -80px 0px rgba(99, 116, 152, 0.1);
-  transform: translateY(-5px);
+  border: 1px solid rgba(128, 0, 128, 0.3);
+box-shadow: inset 0px -80px 0px rgba(128, 0, 128, 0.3);
+transform: translateY(-5px);
 }
 
 @media screen and (max-width: 799px) {

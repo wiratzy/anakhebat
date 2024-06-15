@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $__env->yieldContent('title'); ?></title>
     <?php echo app('Illuminate\Foundation\Vite')('resources/sass/app.scss', 'resources/js/app.js'); ?>
+    <link rel="icon" type="image/x-icon" href="<?php echo e(asset('/img/logo.png')); ?>">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <style>
         * {
@@ -17,6 +18,10 @@
   text-decoration: none;
   color: inherit;
   box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 * :focus {

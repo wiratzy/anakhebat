@@ -14,7 +14,7 @@
 .footer {
   position: relative;
   width: 100%;
-  background: #3586ff;
+  background: #667eac;
   min-height: 100px;
   padding: 20px 50px;
   display: flex;
@@ -77,7 +77,7 @@
   left: 0;
   width: 100%;
   height: 100px;
-  background: url("https://i.ibb.co/wQZVxxk/wave.png");
+  background: url({{ asset('/img/wave.png') }});
   background-size: 1000px 100px;
 }
 
